@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		667ECE491948B1E600A34EFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667ECE481948B1E600A34EFD /* Foundation.framework */; };
+		667ECE4B1948B1E600A34EFD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667ECE4A1948B1E600A34EFD /* CoreGraphics.framework */; };
+		667ECE4D1948B1E600A34EFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667ECE4C1948B1E600A34EFD /* UIKit.framework */; };
+		667ECE531948B1E600A34EFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 667ECE511948B1E600A34EFD /* InfoPlist.strings */; };
+		667ECE551948B1E600A34EFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 667ECE541948B1E600A34EFD /* main.m */; };
+		667ECE591948B1E600A34EFD /* ARAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 667ECE581948B1E600A34EFD /* ARAppDelegate.m */; };
+		667ECE5B1948B1E600A34EFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 667ECE5A1948B1E600A34EFD /* Images.xcassets */; };
+		667ECE621948B1E600A34EFD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667ECE611948B1E600A34EFD /* XCTest.framework */; };
+		667ECE631948B1E600A34EFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667ECE481948B1E600A34EFD /* Foundation.framework */; };
+		667ECE641948B1E600A34EFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667ECE4C1948B1E600A34EFD /* UIKit.framework */; };
+		667ECE6C1948B1E600A34EFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 667ECE6A1948B1E600A34EFD /* InfoPlist.strings */; };
+		667ECE6E1948B1E600A34EFD /* EngadgetBlogReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 667ECE6D1948B1E600A34EFD /* EngadgetBlogReaderTests.m */; };
+		667ECE781948B21500A34EFD /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667ECE771948B21500A34EFD /* Storyboard.storyboard */; };
+		667ECE7B1948B30D00A34EFD /* ARTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 667ECE7A1948B30D00A34EFD /* ARTableViewController.m */; };
+		667ECE7E1948B3AD00A34EFD /* ARTableViewModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 667ECE7D1948B3AD00A34EFD /* ARTableViewModal.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		667ECE651948B1E600A34EFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 667ECE3D1948B1E600A34EFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 667ECE441948B1E600A34EFD;
+			remoteInfo = EngadgetBlogReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		667ECE451948B1E600A34EFD /* EngadgetBlogReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EngadgetBlogReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		667ECE481948B1E600A34EFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		667ECE4A1948B1E600A34EFD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		667ECE4C1948B1E600A34EFD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		667ECE501948B1E600A34EFD /* EngadgetBlogReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EngadgetBlogReader-Info.plist"; sourceTree = "<group>"; };
+		667ECE521948B1E600A34EFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		667ECE541948B1E600A34EFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		667ECE561948B1E600A34EFD /* EngadgetBlogReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EngadgetBlogReader-Prefix.pch"; sourceTree = "<group>"; };
+		667ECE571948B1E600A34EFD /* ARAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARAppDelegate.h; sourceTree = "<group>"; };
+		667ECE581948B1E600A34EFD /* ARAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARAppDelegate.m; sourceTree = "<group>"; };
+		667ECE5A1948B1E600A34EFD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		667ECE601948B1E600A34EFD /* EngadgetBlogReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EngadgetBlogReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		667ECE611948B1E600A34EFD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		667ECE691948B1E600A34EFD /* EngadgetBlogReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EngadgetBlogReaderTests-Info.plist"; sourceTree = "<group>"; };
+		667ECE6B1948B1E600A34EFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		667ECE6D1948B1E600A34EFD /* EngadgetBlogReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EngadgetBlogReaderTests.m; sourceTree = "<group>"; };
+		667ECE771948B21500A34EFD /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		667ECE791948B30D00A34EFD /* ARTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARTableViewController.h; sourceTree = "<group>"; };
+		667ECE7A1948B30D00A34EFD /* ARTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARTableViewController.m; sourceTree = "<group>"; };
+		667ECE7C1948B3AD00A34EFD /* ARTableViewModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARTableViewModal.h; sourceTree = "<group>"; };
+		667ECE7D1948B3AD00A34EFD /* ARTableViewModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARTableViewModal.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		667ECE421948B1E600A34EFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				667ECE4B1948B1E600A34EFD /* CoreGraphics.framework in Frameworks */,
+				667ECE4D1948B1E600A34EFD /* UIKit.framework in Frameworks */,
+				667ECE491948B1E600A34EFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		667ECE5D1948B1E600A34EFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				667ECE621948B1E600A34EFD /* XCTest.framework in Frameworks */,
+				667ECE641948B1E600A34EFD /* UIKit.framework in Frameworks */,
+				667ECE631948B1E600A34EFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		667ECE3C1948B1E600A34EFD = {
+			isa = PBXGroup;
+			children = (
+				667ECE4E1948B1E600A34EFD /* EngadgetBlogReader */,
+				667ECE671948B1E600A34EFD /* EngadgetBlogReaderTests */,
+				667ECE471948B1E600A34EFD /* Frameworks */,
+				667ECE461948B1E600A34EFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		667ECE461948B1E600A34EFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				667ECE451948B1E600A34EFD /* EngadgetBlogReader.app */,
+				667ECE601948B1E600A34EFD /* EngadgetBlogReaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		667ECE471948B1E600A34EFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				667ECE481948B1E600A34EFD /* Foundation.framework */,
+				667ECE4A1948B1E600A34EFD /* CoreGraphics.framework */,
+				667ECE4C1948B1E600A34EFD /* UIKit.framework */,
+				667ECE611948B1E600A34EFD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		667ECE4E1948B1E600A34EFD /* EngadgetBlogReader */ = {
+			isa = PBXGroup;
+			children = (
+				667ECE7C1948B3AD00A34EFD /* ARTableViewModal.h */,
+				667ECE7D1948B3AD00A34EFD /* ARTableViewModal.m */,
+				667ECE791948B30D00A34EFD /* ARTableViewController.h */,
+				667ECE7A1948B30D00A34EFD /* ARTableViewController.m */,
+				667ECE771948B21500A34EFD /* Storyboard.storyboard */,
+				667ECE5A1948B1E600A34EFD /* Images.xcassets */,
+				667ECE4F1948B1E600A34EFD /* Supporting Files */,
+			);
+			path = EngadgetBlogReader;
+			sourceTree = "<group>";
+		};
+		667ECE4F1948B1E600A34EFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				667ECE571948B1E600A34EFD /* ARAppDelegate.h */,
+				667ECE581948B1E600A34EFD /* ARAppDelegate.m */,
+				667ECE501948B1E600A34EFD /* EngadgetBlogReader-Info.plist */,
+				667ECE511948B1E600A34EFD /* InfoPlist.strings */,
+				667ECE541948B1E600A34EFD /* main.m */,
+				667ECE561948B1E600A34EFD /* EngadgetBlogReader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		667ECE671948B1E600A34EFD /* EngadgetBlogReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				667ECE6D1948B1E600A34EFD /* EngadgetBlogReaderTests.m */,
+				667ECE681948B1E600A34EFD /* Supporting Files */,
+			);
+			path = EngadgetBlogReaderTests;
+			sourceTree = "<group>";
+		};
+		667ECE681948B1E600A34EFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				667ECE691948B1E600A34EFD /* EngadgetBlogReaderTests-Info.plist */,
+				667ECE6A1948B1E600A34EFD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		667ECE441948B1E600A34EFD /* EngadgetBlogReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 667ECE711948B1E600A34EFD /* Build configuration list for PBXNativeTarget "EngadgetBlogReader" */;
+			buildPhases = (
+				667ECE411948B1E600A34EFD /* Sources */,
+				667ECE421948B1E600A34EFD /* Frameworks */,
+				667ECE431948B1E600A34EFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EngadgetBlogReader;
+			productName = EngadgetBlogReader;
+			productReference = 667ECE451948B1E600A34EFD /* EngadgetBlogReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		667ECE5F1948B1E600A34EFD /* EngadgetBlogReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 667ECE741948B1E600A34EFD /* Build configuration list for PBXNativeTarget "EngadgetBlogReaderTests" */;
+			buildPhases = (
+				667ECE5C1948B1E600A34EFD /* Sources */,
+				667ECE5D1948B1E600A34EFD /* Frameworks */,
+				667ECE5E1948B1E600A34EFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				667ECE661948B1E600A34EFD /* PBXTargetDependency */,
+			);
+			name = EngadgetBlogReaderTests;
+			productName = EngadgetBlogReaderTests;
+			productReference = 667ECE601948B1E600A34EFD /* EngadgetBlogReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		667ECE3D1948B1E600A34EFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = AdamGoodApp;
+				TargetAttributes = {
+					667ECE441948B1E600A34EFD = {
+						DevelopmentTeam = DZUV63WTZ3;
+					};
+					667ECE5F1948B1E600A34EFD = {
+						TestTargetID = 667ECE441948B1E600A34EFD;
+					};
+				};
+			};
+			buildConfigurationList = 667ECE401948B1E600A34EFD /* Build configuration list for PBXProject "EngadgetBlogReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 667ECE3C1948B1E600A34EFD;
+			productRefGroup = 667ECE461948B1E600A34EFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				667ECE441948B1E600A34EFD /* EngadgetBlogReader */,
+				667ECE5F1948B1E600A34EFD /* EngadgetBlogReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		667ECE431948B1E600A34EFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				667ECE531948B1E600A34EFD /* InfoPlist.strings in Resources */,
+				667ECE5B1948B1E600A34EFD /* Images.xcassets in Resources */,
+				667ECE781948B21500A34EFD /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		667ECE5E1948B1E600A34EFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				667ECE6C1948B1E600A34EFD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		667ECE411948B1E600A34EFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				667ECE7E1948B3AD00A34EFD /* ARTableViewModal.m in Sources */,
+				667ECE551948B1E600A34EFD /* main.m in Sources */,
+				667ECE7B1948B30D00A34EFD /* ARTableViewController.m in Sources */,
+				667ECE591948B1E600A34EFD /* ARAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		667ECE5C1948B1E600A34EFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				667ECE6E1948B1E600A34EFD /* EngadgetBlogReaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		667ECE661948B1E600A34EFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 667ECE441948B1E600A34EFD /* EngadgetBlogReader */;
+			targetProxy = 667ECE651948B1E600A34EFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		667ECE511948B1E600A34EFD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				667ECE521948B1E600A34EFD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		667ECE6A1948B1E600A34EFD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				667ECE6B1948B1E600A34EFD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		667ECE6F1948B1E600A34EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		667ECE701948B1E600A34EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		667ECE721948B1E600A34EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EngadgetBlogReader/EngadgetBlogReader-Prefix.pch";
+				INFOPLIST_FILE = "EngadgetBlogReader/EngadgetBlogReader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		667ECE731948B1E600A34EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EngadgetBlogReader/EngadgetBlogReader-Prefix.pch";
+				INFOPLIST_FILE = "EngadgetBlogReader/EngadgetBlogReader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		667ECE751948B1E600A34EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EngadgetBlogReader.app/EngadgetBlogReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EngadgetBlogReader/EngadgetBlogReader-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EngadgetBlogReaderTests/EngadgetBlogReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		667ECE761948B1E600A34EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EngadgetBlogReader.app/EngadgetBlogReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EngadgetBlogReader/EngadgetBlogReader-Prefix.pch";
+				INFOPLIST_FILE = "EngadgetBlogReaderTests/EngadgetBlogReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		667ECE401948B1E600A34EFD /* Build configuration list for PBXProject "EngadgetBlogReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				667ECE6F1948B1E600A34EFD /* Debug */,
+				667ECE701948B1E600A34EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		667ECE711948B1E600A34EFD /* Build configuration list for PBXNativeTarget "EngadgetBlogReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				667ECE721948B1E600A34EFD /* Debug */,
+				667ECE731948B1E600A34EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		667ECE741948B1E600A34EFD /* Build configuration list for PBXNativeTarget "EngadgetBlogReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				667ECE751948B1E600A34EFD /* Debug */,
+				667ECE761948B1E600A34EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 667ECE3D1948B1E600A34EFD /* Project object */;
+}
